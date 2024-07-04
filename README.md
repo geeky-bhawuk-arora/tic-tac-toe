@@ -1,3 +1,3 @@
 # Tic Tac Toe Game
 
-URL:-  https://github.com/geeky-bhawuk-arora/tic-tac-toe-game
+URL:- https://geeky-bhawuk-arora.github.io/tic-tac-toe/
