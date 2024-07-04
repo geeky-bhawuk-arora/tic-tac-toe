@@ -42,9 +42,9 @@ const handleResultValidation = () => {
 
     if (roundWon) {
         const winningPlayer = currentPlayer === 'X' ? 'Kanishk' : 'Tanisha';
-        const funMessage = `🎉🎉 Hooray! Player ${winningPlayer} wins! 🎉🎉`;
-        message.innerText = funMessage;
-        alert(funMessage);
+        const msg = `🎉🎉 Hooray! Player ${winningPlayer} wins! 🎉🎉`;
+        message.innerText = msg;
+        alert(msg);
         gameActive = false;
         setTimeout(resetGame, 3000);
         return;
