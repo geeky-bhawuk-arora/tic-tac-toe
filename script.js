@@ -41,7 +41,7 @@ const handleResultValidation = () => {
     }
 
     if (roundWon) {
-        const winningPlayer = currentPlayer === 'X' ? 'Kanishk' : 'Bhawuk';
+        const winningPlayer = currentPlayer === 'X' ? 'Kanishk' : 'Tanisha';
         const funMessage = `🎉🎉 Hooray! Player ${winningPlayer} wins! 🎉🎉`;
         message.innerText = funMessage;
         alert(funMessage);
