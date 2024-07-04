@@ -42,8 +42,9 @@ const handleResultValidation = () => {
 
     if (roundWon) {
         const winningPlayer = currentPlayer === 'X' ? 'Kanishk' : 'Bhawuk';
-        message.innerText = `Player ${winningPlayer} wins!`;
-        alert(`Player ${winningPlayer} wins!`);
+        const funMessage = `🎉🎉 Hooray! Player ${winningPlayer} wins! 🎉🎉`;
+        message.innerText = funMessage;
+        alert(funMessage);
         gameActive = false;
         setTimeout(resetGame, 3000);
         return;
@@ -51,8 +52,9 @@ const handleResultValidation = () => {
 
     let roundDraw = !gameState.includes('');
     if (roundDraw) {
-        message.innerText = "It's a draw!";
-        alert("It's a draw!");
+        const funMessage = "😮😮 It's a draw! Try again! 😮😮";
+        message.innerText = funMessage;
+        alert(funMessage);
         gameActive = false;
         setTimeout(resetGame, 3000);
         return;
